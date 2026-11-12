@@ -1,0 +1,38 @@
+node_modules/
+dist/
+release/
+*.tsbuildinfo
+.vite/
+
+# Local builds, installers, and downloaded runtimes
+release-latest/
+electron-dist-local/
+*.exe
+*.blockmap
+
+# PDF originals are distributed separately from source code
+film-library/**/*.pdf
+
+# Local archives, imports, inspection outputs, and machine-specific helpers
+library-backups/
+duplicate-archive-*/
+import-review-*/
+docx-render-*/
+eos3-inspect-*/
+inspect-new/
+review-icons/
+tests/results/
+.cdp-debug.cjs
+__pycache__/
+*.pyc
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
